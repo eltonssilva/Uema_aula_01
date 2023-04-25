@@ -1,18 +1,8 @@
 
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-body {
-  background-color: #ff0000; /* Substitua pelo código de cor hexadecimal, RGB, ou nome de cor que você deseja */
-}
-</style>
-</head>
-<body>
-
 ![Exemplo de imagem](https://www.uema.br/wp-content/uploads/2023/02/logo-uema-site.png)
 
 # Projeto Sistemas Embarcados
+(Prof. Me. Elton de Sousa e Silva)
 
 
 Esse projeto faz parte da disciplina de Sistemas Embarcados do curso de engenharia da Computação da UEMA.
@@ -44,12 +34,6 @@ Esse projeto faz parte da disciplina de Sistemas Embarcados do curso de engenhar
 * Resistores
 * Jumps de Conexão
 * Protoboard
-
-
-</body>
-</html>
-
-
 
 
 
