@@ -1,32 +1,55 @@
-# _Sample project_
 
-(See the README.md file in the upper level 'examples' directory for more information about examples.)
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: #ff0000; /* Substitua pelo código de cor hexadecimal, RGB, ou nome de cor que você deseja */
+}
+</style>
+</head>
+<body>
 
-This is the simplest buildable example. The example is used by command `idf.py create-project`
-that copies the project to user specified path and set it's name. For more information follow the [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project)
+![Exemplo de imagem](https://www.uema.br/wp-content/uploads/2023/02/logo-uema-site.png)
+
+# Projeto Sistemas Embarcados
+
+
+Esse projeto faz parte da disciplina de Sistemas Embarcados do curso de engenharia da Computação da UEMA.
+
+### Objetivo do Projeto
+
+ O projeto tem como objetivo coloca o aluno em contato com as seguintes conhecimentos.
+
+ * Utilização de Sistema Operacional em tempo Real;
+ * Utilização de Tarefas, Filas e outras API do FreeRTOS;
+ * Utilização do Protocolo MQTT;
+ * Utilização do Metodos de Economia de Energia em Sistemas Embarcados;
+
+ ### Desafio do Projeto
+
+ 1. Na tarefa Switch_Control monitorar o estado de uma tecla e enviar o estado da tecla para a tarefa blink e counter utilizando a API de Queues.
+
+ 1. Na tarefa blink liga um led indicativo toda vez que switch se manter presionado.
+
+ 1. Na tarela counter amazenar um valor contador com o quantitativo de vezes que o switch foi pressionado
+
+ 1. Na tarefa MQTT enviar a contagem para o servidor em nuvem de tempos em tempos (mais detalhes da tarefa e os dados sobre o servidor sera informado pelo professor) 
+
+### Materiais
+
+* Microcontrolador ESP-32 
+* Led 
+* Switch
+* Resistores
+* Jumps de Conexão
+* Protoboard
+
+
+</body>
+</html>
 
 
 
-## How to use example
-We encourage the users to use the example as a template for the new projects.
-A recommended way is to follow the instructions on a [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project).
 
-## Example folder contents
 
-The project **sample_project** contains one source file in C language [main.c](main/main.c). The file is located in folder [main](main).
-
-ESP-IDF projects are built using CMake. The project build configuration is contained in `CMakeLists.txt`
-files that provide set of directives and instructions describing the project's source files and targets
-(executable, library, or both). 
-
-Below is short explanation of remaining files in the project folder.
-
-```
-├── CMakeLists.txt
-├── main
-│   ├── CMakeLists.txt
-│   └── main.c
-└── README.md                  This is the file you are currently reading
-```
-Additionally, the sample project contains Makefile and component.mk files, used for the legacy Make based build system. 
-They are not used or needed when building with CMake and idf.py.
