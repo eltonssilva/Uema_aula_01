@@ -7,6 +7,7 @@
 
 Esse projeto faz parte da disciplina de Sistemas Embarcados do curso de engenharia da Computação da UEMA.
 
+
 ### Objetivo do Projeto
 
  O projeto tem como objetivo coloca o aluno em contato com as seguintes conhecimentos.
